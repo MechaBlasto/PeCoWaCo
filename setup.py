@@ -10,7 +10,7 @@ setup(
     version='1.0.0',
     author='Varun Kapoor,OOzge Ozguc',
     author_email='randomaccessiblekapoor@gmail.com',
-    url='https://github.com/MechaBlasto/NapaTrackMater/',
+    url='https://github.com/MechaBlasto/PeCoWaCo/',
     description='Analysis of Periodic contractions',
     long_description=long_description,
     long_description_content_type='text/markdown',
