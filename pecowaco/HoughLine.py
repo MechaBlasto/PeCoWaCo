@@ -11,7 +11,7 @@ from scipy import ndimage as ndi
 from skimage.filters import roberts, sobel, scharr, prewitt, gaussian
 from skimage.morphology import watershed
 from skimage.feature import peak_local_max
-from Normalize import save_tiff_imagej_compatible
+from .Normalize import save_tiff_imagej_compatible
 from skimage.segmentation import find_boundaries,find_boundaries, relabel_sequential
 from skimage.morphology import remove_small_objects, binary_erosion
 from skimage.filters import threshold_otsu, threshold_mean

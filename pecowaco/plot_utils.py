@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import numpy as np
 
-from Normalize import normalizeMinMax, normalizeFloat
+from .Normalize import normalizeMinMax, normalizeFloat
 
 def multiplot(imageA, imageB, imageC, titleA, titleB, titleC, targetdir = None, File = None, plotTitle = None):
     fig, axes = plt.subplots(1, 3, figsize=(15, 6))
