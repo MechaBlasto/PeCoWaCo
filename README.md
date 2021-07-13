@@ -2,6 +2,8 @@
 
 Analysis of Periodic contractions
 
+![Notebook Description](https://github.com/kapoorlab/PeCoWaCo/blob/main/Images/PastedGraphic.png)
+
 ## Installation
 This package can be installed with:
 
