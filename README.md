@@ -110,6 +110,6 @@ Under MIT license. See [LICENSE](LICENSE).
 
 ## Authors
 
-- Oozge Oozguc
+- Özge Özgüç
 - Varun Kapoor <randomaccessiblekapoor@gmail.com>
 
