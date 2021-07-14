@@ -1,7 +1,7 @@
 # PeCoWaCo
 
 
-This python package is to be used in conjugation with the Fiji plugin WizardofOz to analyze periodic contractions of cortical waves, which travel around blastomeres in an oscillatory fashion. 
+This python package is to be used in conjugation with the Fiji plugin WizardofOz(WoZ) to analyze periodic contractions of cortical waves, which travel around blastomeres in an oscillatory fashion. 
 
 Download Fiji from [Fiji](https://imagej.github.io/), After download open Fiji and to install the Fiji plugin WizardofOz check the update cite MTrack. 
 
