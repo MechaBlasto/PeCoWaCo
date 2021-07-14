@@ -77,14 +77,14 @@ Access the `example` folder and run the cells.
 
 
 ## Usage
-
+The WizardofOz plugin can be run using a single channel image or a dual channel image. The segmentation image for both is the same. In the single channel mode curvature, distance and intensity of the membrane is computed, in dual channel mode the intensity along the membrane of the second channel is computed as well. We provide two notebooks for analysis of these two modes.
 
 ## Example
 
 
-Notebook 1 ) 
-Notebook 2) 
-## Docker
+[Notebook](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/OscillationQuantifier_3kymo.ipynb) 1)  In this notebook, the curvature, distance and intensity kymograph output coming from a single channel of WoZ plugin serves as an input. Users can choose the start and the end points along the x and y axis of kymograph to exclude certain regions from further computation. We calculate the root mean square, space resolved FFT along the time axis and a space averaged FFT plot with interactive bokeh plots. All the information is saved as csv files.
+
+[Notebook](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/OscillationQuantifier_4kymo.ipynb) 2) In this notebook, the curvature, distance and intensity kymograph output coming from dual channel mode of WoZ plugin serves as an input. We compute the same quantities as in notebook 1 but in addition now with the intnesity kymograph analysis of the second channel included as well.
 
 
 
