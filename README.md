@@ -37,7 +37,7 @@ curvature tracking are then exported into this python package (pecowaco) for amp
 ## Installation
 This package can be installed with:
 
-`pip install --user PeCoWaCo`
+`pip install --user pecowaco`
 
 If you are building this from the source, clone the repository and install via
 
