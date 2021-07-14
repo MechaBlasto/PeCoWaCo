@@ -81,9 +81,7 @@ The WizardofOz plugin can be run using a single channel image or a dual channel 
 
 ## Example
 
-[PIV](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/AbsFFT2avUandV.m) analysis is used to obtain the x- and y-velocities of individual vectors
-that are then used for Fourier
-analysis. A Fourier transform of the vector
+[PIV](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/AbsFFT2avUandV.m) analysis is done on Matlab by using PIVlab 2.02 (Thielicke and Eize J. Stamhuis, 2020; Thielicke and Stamhuis, 2010). Post obtaining the PIV we perfrom the Fast Fourier transform on the x and y velocities of individual vectors coming out of the PIV analysis. FFT of the vector
 velocities over time is performed using
 Matlab’s fast Fourier transform function. The
 resulting Fourier transforms are squared to
@@ -91,7 +89,7 @@ obtain individual power spectra. Squared
 Fourier transforms in the x and y directions of
 all vectors are averaged for individual
 embryos resulting in mean power spectra of
-individual embryos. 
+individual embryos. The example code provided only performs the FFT of the vectors obtianed from PIV but we do not provide the code to do PIV itself.
 
 [Notebook](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/OscillationQuantifier_3kymo.ipynb) 1)  In this notebook, the curvature, distance and intensity kymograph output coming from a single channel of WoZ plugin serves as an input. Users can choose the start and the end points along the x and y axis of kymograph to exclude certain regions from further computation. We calculate the root mean square, space resolved FFT along the time axis and a space averaged FFT plot with interactive bokeh plots. All the information is saved as csv files.
 
