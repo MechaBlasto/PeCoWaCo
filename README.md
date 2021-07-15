@@ -81,7 +81,7 @@ The WizardofOz plugin can be run using a single channel image or a dual channel 
 
 ## Example
 
-[Oscillation analysis of PIV data](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/PIV_Analysis/AbsFFT2avUandV.m) analysis is done on Matlab by using PIVlab 2.02 (Thielicke and Eize J. Stamhuis, 2020; Thielicke and Stamhuis, 2010). Post obtaining the PIV we perfrom the Fast Fourier transform on the x and y velocities of individual vectors coming out of the PIV analysis. FFT of the vector
+[Oscillation analysis of PIV data](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/PIV_Analysis/Analyze_PIV.m) is done on Matlab by using PIVlab 2.02 (Thielicke and Eize J. Stamhuis, 2020; Thielicke and Stamhuis, 2010). Post obtaining the PIV we perfrom the Fast Fourier transform on the x and y velocities of individual vectors coming out of the PIV analysis. FFT of the vector
 velocities over time is performed using
 Matlab’s fast Fourier transform function. The
 resulting Fourier transforms are squared to
