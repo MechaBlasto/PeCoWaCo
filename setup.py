@@ -7,7 +7,7 @@ with open('README.md') as f:
 
 setup(
     name="pecowaco",
-    version='1.0.0',
+    version='1.0.1',
     author='Varun Kapoor,OOzge Ozguc',
     author_email='randomaccessiblekapoor@gmail.com',
     url='https://github.com/MechaBlasto/PeCoWaCo/',
