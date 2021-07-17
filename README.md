@@ -89,7 +89,7 @@ obtain individual power spectra. Squared
 Fourier transforms in the x and y directions of
 all vectors are averaged for individual
 embryos resulting in mean power spectra of
-individual embryos. The example code provided only performs the FFT of the vectors obtianed from PIV but we do not provide the code to do PIV itself.
+individual embryos. The example code provided only performs the FFT of the vectors obtained from PIV but we do not provide the code to do PIV itself.
 
 [Notebook](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/Jupyter_Notebooks/OscillationQuantifier_3kymo.ipynb) 1)  In this notebook, the curvature, distance and intensity kymograph output coming from a single channel of WoZ plugin serves as an input. Users can choose the start and the end points along the x and y axis of kymograph to exclude certain regions from further computation. We calculate the root mean square, space resolved FFT along the time axis and a space averaged FFT plot with interactive bokeh plots. All the information is saved as csv files.
 
