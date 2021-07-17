@@ -93,7 +93,7 @@ individual embryos. The example code provided only performs the FFT of the vecto
 
 [Notebook](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/Jupyter_Notebooks/OscillationQuantifier_3kymo.ipynb) 1)  In this notebook, the curvature, distance and intensity kymograph output coming from a single channel of WoZ plugin serves as an input. Users can choose the start and the end points along the x and y axis of kymograph to exclude certain regions from further computation. We calculate the root mean square, space resolved FFT along the time axis and a space averaged FFT plot with interactive bokeh plots. All the information is saved as csv files.
 
-[Notebook](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/Jupyter_Notebooks/OscillationQuantifier_4kymo.ipynb) 2) In this notebook, the curvature, distance and intensity kymograph output coming from dual channel mode of WoZ plugin serves as an input. We compute the same quantities as in notebook 1 but in addition now with the intnesity kymograph analysis of the second channel included as well.
+[Notebook](https://github.com/kapoorlab/PeCoWaCo/blob/main/examples/Jupyter_Notebooks/OscillationQuantifier_4kymo.ipynb) 2) In this notebook, the curvature, distance and intensity kymograph output coming from dual channel mode of WoZ plugin serves as an input. We compute the same quantities as in notebook 1 but in addition now with the intensity kymograph analysis of the second channel included as well.
 
 
 
