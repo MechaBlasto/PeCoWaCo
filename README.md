@@ -49,7 +49,7 @@ cd PeCoWaCo
 pip install --user -e .
 
 # or, to install in editable mode AND grab all of the developer tools
-# (this is required if you want to contribute code back to NapaTrackMater)
+# (this is required if you want to contribute code back to pecowaco)
 pip install --user -r requirements.txt
 ```
 
